@@ -1,5 +1,4 @@
 {
-    "$schema": "https://mintlify.com/schema.json",
     "name": "resurrect.site",
     "logo": {
         "dark": "/logo/dark.svg",
