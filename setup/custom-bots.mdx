@@ -1,0 +1,78 @@
+---
+title: "Custom Bots"
+description: "Create a custom bot for your server"
+icon: "robot"
+---
+
+{/* warn */}
+
+<Tip>
+    Have you taken the precautions to securing your bot? If not, please follow
+    the guide below.
+    <Card title="Protect Your Bot" href="/setup/protect-bot">
+        <p>Learn how to protect your bot from being deleted.</p>
+    </Card>
+</Tip>
+
+## Creating a Custom Bot
+
+<Steps>
+    <Step title="Create an application">
+        Head to [discord.dev](discord.dev) and sign in if not already. Then
+        create a new application refer to the screenshot below
+        <Frame>![](https://i.imgur.com/yD4b86P.png)</Frame>
+    </Step>
+    <Step title="Copy values">
+        To create your custom bot, you require the values: `Client ID`, `Client
+        Secret`, <br /> `Bot Token`, and `Public Key`. These can be found in the
+        `General Information` and `Bot` tabs. But, if you need help finding
+        them, refer to guide below.
+    </Step>
+    <Step title="Add A Redirect URL">
+        Head to `OAuth2 ➔ Redirects` and add a redirect URL as
+        `https://api.resurrect.site/callback`. This is so we can ensure the user
+        verifies on your server.
+        <Frame>![](https://i.imgur.com/LBWIcuk.png)</Frame>
+        <Note>
+            If you are using a custom domain, replace `api.resurrect.site` with
+            your domain.
+        </Note>
+    </Step>
+    <Step title="Add A Interactions Endpoint URL">
+        <Warning>
+            Ensure that you have created your bot first before you do this step
+            as it may error.
+        </Warning>
+        Head to `General Information` and add a `Interactions Endpoint URL` as `https://api.resurrect.site/interactions/callback`.
+        This is so you can use commands with your custom bot!
+        <Frame>![](https://i.imgur.com/WBm00cS.png)</Frame>
+        <Note>
+            If you are using a custom domain, replace `api.resurrect.site` with
+            your domain.
+        </Note>
+    </Step>
+</Steps>
+
+## How to get the values
+
+<AccordionGroup>
+    <Accordion title="Bot Name">
+        <Note>
+            This can be any value as it is shown within the dashboard so you can
+            easily identify your bot.
+        </Note>
+    </Accordion>
+    <Accordion title="Client ID & Public Key">
+        To get your Client ID & Public Key, navigate to the `General
+        Information` tab. ![](https://i.imgur.com/KbkpEs1.png)
+    </Accordion>
+    <Accordion title="Client Secret">
+        To get your Client Secret, navigate to `OAuth2 ➔ General` tab.
+        ![](https://i.imgur.com/0VOuVrB.png)
+    </Accordion>
+    <Accordion title="Bot Token">
+        To get your Bot Token, navigate to the `Bot` tab. <br /> Ensure that the
+        `Privileged Gateway Intents` are all enabled.
+        ![](https://i.imgur.com/Inbct5C.png)
+    </Accordion>
+</AccordionGroup>

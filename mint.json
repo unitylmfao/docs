@@ -1,78 +1,82 @@
 {
-  "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
-  "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
-  },
-  "favicon": "/favicon.svg",
-  "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
-    "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
-    }
-  },
-  "topbarLinks": [
-    {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
-    }
-  ],
-  "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
-  },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
-  "anchors": [
-    {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+    "$schema": "https://mintlify.com/schema.json",
+    "name": "resurrect.site",
+    "logo": {
+        "dark": "/logo/dark.svg",
+        "light": "/logo/light.svg"
     },
-    {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
+    "favicon": "/favicon.svg",
+    "colors": {
+        "primary": "#0f121a",
+        "light": "#a190c4",
+        "dark": "#0f121a",
+        "background": {
+            "dark": "#0f121a"
+        }
     },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
-    }
-  ],
-  "navigation": [
-    {
-      "group": "Get Started",
-      "pages": ["introduction", "quickstart", "development"]
+    "topbarLinks": [
+        {
+            "name": "Support",
+            "url": "https://discord.resurrect.site"
+        }
+    ],
+    "topbarCtaButton": {
+        "name": "Website",
+        "url": "https://resurrect.site/dashboard"
     },
-    {
-      "group": "Essentials",
-      "pages": ["essentials/markdown", "essentials/code", "essentials/images", "essentials/settings", "essentials/navigation"]
+    "tabs": [],
+    "anchors": [
+        {
+            "name": "Documentation",
+            "icon": "book-open-cover",
+            "color": "#a190c4",
+            "url": "/introduction"
+        },
+        {
+            "name": "Discord",
+            "icon": "discord",
+            "url": "https://discord.resurrect.site/"
+        },
+        {
+            "name": "Telegram",
+            "icon": "telegram",
+            "url": "https://t.me/resurrect_site"
+        }
+    ],
+    "navigation": [
+        {
+            "group": "Get Started",
+            "pages": ["introduction", "faq"]
+        },
+        {
+            "group": "Procedures",
+            "pages": [
+                "setup/custom-bots",
+                "setup/protect-bot",
+                "setup/instant-restore"
+            ]
+        },
+        {
+            "group": "Other Artifacts",
+            "pages": [
+                "other-artifacts/restore-server",
+                "other-artifacts/verify-embed",
+                "other-artifacts/verified-logs"
+            ]
+        },
+        {
+            "group": "Errors",
+            "pages": ["errors/introduction"]
+        }
+    ],
+    "footerSocials": {
+        "discord": "https://discord.resurrect.site",
+        "telegram": "https://t.me/resurrect_site",
+        "website": "https://resurrect.site"
     },
-    {
-      "group": "API Documentation",
-      "pages": ["api-reference/introduction"]
+    "modeToggle": {
+        "isHidden": true,
+        "default": "dark"
     },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
-      ]
-    }
-  ],
-  "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
-  }
+    "isWhiteLabeled": true
 }
