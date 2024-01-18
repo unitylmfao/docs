@@ -16,12 +16,12 @@
     "topbarLinks": [
         {
             "name": "Support",
-            "url": "https://discord.resurrect.site"
+            "url": "https://discord.resurrect.to"
         }
     ],
     "topbarCtaButton": {
         "name": "Website",
-        "url": "https://resurrect.site/dashboard"
+        "url": "https://resurrect.to/dashboard"
     },
     "tabs": [],
     "anchors": [
@@ -34,7 +34,7 @@
         {
             "name": "Discord",
             "icon": "discord",
-            "url": "https://discord.resurrect.site/"
+            "url": "https://discord.resurrect.to/"
         },
         {
             "name": "Telegram",
