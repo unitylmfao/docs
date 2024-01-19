@@ -1,10 +1,10 @@
 {
     "name": "resurrect.to",
     "logo": {
-        "dark": "/images/favicon.svg",
-        "light": "/images/favicon.svg"
+        "dark": "/images/fav.svg",
+        "light": "/images/fav.svg"
     },
-    "favicon": "/images/favicon.svg",
+    "favicon": "/images/fav.svg",
     "colors": {
         "primary": "#0f121a",
         "light": "#a190c4",
@@ -34,12 +34,12 @@
         {
             "name": "Discord",
             "icon": "discord",
-            "url": "https://resurrect.to/discord/"
+            "url": "https://resurrect.to/discord"
         },
         {
             "name": "Telegram",
             "icon": "telegram",
-            "url": "https://t.me/resurrect_site"
+            "url": "https://resurrect.to/telegram"
         }
     ],
     "navigation": [
@@ -70,7 +70,7 @@
     ],
     "footerSocials": {
         "discord": "https://resurrect.to/discord",
-        "telegram": "https://t.me/resurrect_site",
+        "telegram": "https://resurrect.to/telegram",
         "website": "https://resurrect.to"
     },
     "modeToggle": {
