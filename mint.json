@@ -1,10 +1,10 @@
 {
     "name": "resurrect.to",
     "logo": {
-        "dark": "/images/fav.svg",
-        "light": "/images/fav.svg"
+        "dark": "/images/favicon.svg",
+        "light": "/images/favicon.svg"
     },
-    "favicon": "/images/fav.svg",
+    "favicon": "/images/favicon.svg",
     "colors": {
         "primary": "#0f121a",
         "light": "#a190c4",
