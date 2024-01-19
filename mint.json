@@ -16,12 +16,12 @@
     "topbarLinks": [
         {
             "name": "Support",
-            "url": "https://discord.resurrect.to"
+            "url": "https://resurrect.to/discord"
         }
     ],
     "topbarCtaButton": {
         "name": "Website",
-        "url": "https://resurrect.to/dashboard"
+        "url": "https://resurrect.to/"
     },
     "tabs": [],
     "anchors": [
@@ -34,7 +34,7 @@
         {
             "name": "Discord",
             "icon": "discord",
-            "url": "https://discord.resurrect.to/"
+            "url": "https://resurrect.to/discord/"
         },
         {
             "name": "Telegram",
@@ -69,9 +69,9 @@
         }
     ],
     "footerSocials": {
-        "discord": "https://discord.resurrect.site",
+        "discord": "https://resurrect.to/discord",
         "telegram": "https://t.me/resurrect_site",
-        "website": "https://resurrect.site"
+        "website": "https://resurrect.to"
     },
     "modeToggle": {
         "isHidden": true,
